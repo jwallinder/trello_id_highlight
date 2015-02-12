@@ -1,0 +1,12 @@
+.card-short-id.hide{
+	display: inline-block !important;
+	font-weight: bold;
+	font-size: 16px;
+	background: #E3E3E3;
+	color: #0e74af;
+	padding: 0.25em;
+	border-radius: 5px;
+	margin-right: 5px;
+	bottom: 0em;
+	left: 0;
+}

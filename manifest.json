@@ -1,0 +1,15 @@
+{
+  "name": "Trello id highlight",
+  "description": "highlight trello ID",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.trello.com/*"],
+      "css": ["trello_id.css"]
+    }
+  ],
+  "manifest_version": 2
+}
